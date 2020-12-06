@@ -89,14 +89,6 @@ public function ShopForm2(Player $p){
                 $p->sendMessage("§cYeterince paran yok");
             }
         });
-        $inventory = $p->getInventory();
-        $count = 0;
-        $all = $inventory->getContents();
-        foreach ($all as $item) {
-            if ($item->getId() == 2) {
-                $count = $count + $item->getCount();
-            }
-        }
         $swname = "SunucuAdı";
 		$form->setTitle($swname);
         $form->addLabel("Yazı Yazabilirsin");
