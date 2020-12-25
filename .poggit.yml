@@ -3,5 +3,5 @@ branches:
 - main
 projects:
   ShopUI:
-    path: "icon"
+    path: ""
 ...
